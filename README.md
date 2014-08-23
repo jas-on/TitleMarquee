@@ -11,14 +11,14 @@ tm.stop(); //stop the marquee
 tm.configure({displaySpeed: 4000}) //configure the marquee
 ```
 ###Things to configure
-```json
+```javascript
 {
-  displayText: "Hello", //text to show in document.title
+  "displayText": "Hello", //text to show in document.title
 
-  displaySpeed: 1000, //speed in ms at which to move the text
+  "displaySpeed": 1000, //speed in ms at which to move the text
 
-  spaceBetween: 10, //amount of space between the front and end of the text for when it wraps around
+  "spaceBetween": 10, //amount of space between the front and end of the text for when it wraps around
 
-  separator: "~~~" //what to use as a unit in spaceBetween
+  "separator": "~~~" //what to use as a unit in spaceBetween
 }
 ```
